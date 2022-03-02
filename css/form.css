@@ -1,0 +1,159 @@
+input,
+select {
+  background-color: #e8f0fe;
+  border-radius: 11vw;
+  -webkit-box-shadow: 0vw 0vw 0.3vw #111;
+  box-shadow: 0vw 0vw 0.3vw #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0vw 0vw 0.3vw #111;
+  -webkit-transition: all 0.15s cubic-bezier(0.65, 0.05, 0.36, 1);
+  -o-transition: all 0.15s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: all 0.15s cubic-bezier(0.65, 0.05, 0.36, 1);
+  border: none;
+  width: 20vw;
+  height: 2vw;
+  margin: 0.5vw 0;
+  padding-left: 1vw;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0vw 0vw 0.3vw #000;
+  box-shadow: 0vw 0vw 0.3vw #000;
+  border: transparent;
+  outline: none;
+  background-color: #e8f0fe;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.submit {
+  width: 10vw;
+  height: 2vw;
+  margin-top: 1vw;
+}
+
+.submit:disabled {
+  background-image: -o-linear-gradient(
+    315deg,
+    rgba(245, 179, 30, 0.7) 0%,
+    rgba(128, 79, 7, 0.7) 10%
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(245, 179, 30, 0.7) 0%,
+    rgba(128, 79, 7, 0.7) 10%
+  );
+  cursor: not-allowed;
+}
+
+.regi {
+  width: 5vw;
+}
+
+#menu {
+  height: 80%;
+}
+
+#men {
+  height: 20%;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  padding: 2vw 1vw;
+  width: 30vw;
+  border-radius: 2vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close {
+  color: #fff;
+  float: right;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span#desc {
+  visibility: hidden;
+}
+
+#yes {
+  border: 0.1vw solid #e53935;
+  background-color: #c62828;
+}
+
+#no {
+  border: 0.1vw solid #7cb342;
+  background-color: #558b2f;
+}
+
+.btn-modal {
+  border-radius: 2vw;
+  margin: 1vw 0.5vw 0;
+}
+
+.form {
+  width: 30vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* #add-task{
+  visibility:visible;
+} */
